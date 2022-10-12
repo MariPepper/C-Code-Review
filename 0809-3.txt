@@ -125,16 +125,16 @@ int main()
                 cout<<"\n"<<PI<<" * "<<x<<" * "<<""<<x<<" = "<<""<<z;
                 break;
                 case 5:
-                return 0;
-                default:
                 cout<<"\nWrong Choice!";
+                default:
+                return 0;
                 break;
             }
             }while(choice!=6);
             case 6:
-            return 0;
-            default:
             cout<<"\nWrong Choice!";
+            default:
+            return 0;
             break;
         }
         cout<<"\n------------------------\n";        
