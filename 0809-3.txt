@@ -48,6 +48,11 @@ int main()
                     getline(cin, y);
                     //cout<<"\n> "<<&y;
                 }
+            else
+            {
+                cout<<"\nWrong Choice!";
+                return 0;
+            }                
             }
         }
     } while (login1 != true);
